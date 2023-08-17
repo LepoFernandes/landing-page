@@ -36,11 +36,28 @@ body{
 }
 
 .cabeçalho-menu-item{
+    background-color: #FA3DB2;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-size: 24px;
     font-family: 'Caprasimo', cursive;
-    font-size: 18px;
-    color: white;
-    font-weight: 400px;
+    font-weight: normal;
+    color: rgb(255, 255, 255);   
 }
+
+.cabeçalho-menu-item > a{
+    color: white;
+}
+.cabeçalho-menu-item:active{
+    background-color: #501b3b;
+  
+}
+.cabeçalho-menu-item:hover{
+background-color: #6E30FD;
+transition-duration: 0.4s;}
 
 .conteudo{
     margin-bottom: 48px;
