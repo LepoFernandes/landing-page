@@ -23,7 +23,8 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 16px;
+    padding: 10px;
+    height: 100px;
 }
 
 .cabeçalho-imagem{
@@ -37,14 +38,16 @@ body{
 }
 
 .cabeçalho-menu-item{
+    
     background-color: #FA3DB2;
     padding: 10px;    
     box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.363); 
     color: white;
     border-radius: 20px;
     font-size: 24px;
+    width: 120px;
+    height: 50px;
     
- 
 }
 
 .cabeçalho-menu-item > a{
