@@ -34,25 +34,26 @@ body{
 
 .cabeçalho-menu{
     display: flex;
-    gap: 40px;
+    gap: 40px;   
 }
 
-.cabeçalho-menu-item{
-    
+.cabeçalho-menu-item{    
     background-color: #FA3DB2;
-    padding: 10px;    
+    padding: 10px 7px;
     box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.363); 
     color: white;
-    border-radius: 20px;
+    border-radius: 15px;
     font-size: 24px;
     width: 120px;
     height: 50px;
+  
+    
     
 }
 
 .cabeçalho-menu-item > a{
     color: white;
-    padding: 10px;
+    padding-left: 10px;
     text-decoration: none;
     font-weight: bolder;
     border-radius: 5px;

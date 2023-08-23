@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #FFB1F2 16.62%, #FEF3B3 85.61%);
+}
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    height: 100px;
+}
+.cabeçalho-imagem{
+    height: 120px;
+    width: 120px;
+}
+
+.cabeçalho-menu{
+    display: flex;
+    gap: 40px;   
+}
+
+.cabeçalho-menu-item{    
+    background-color: #FA3DB2;
+    padding: 6px 7px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.363); 
+    color: white;
+    border-radius: 15px;
+    font-size: 18px;
+    width: 120px;
+    height: 50px;   
+}
