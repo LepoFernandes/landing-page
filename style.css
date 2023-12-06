@@ -156,3 +156,26 @@ footer{
     border-top: 0.4px solid white ;
     padding: 32px;
 }
+
+@media only screen and (max-width: 768px) {
+    .cabeçalho-imagem {
+        display: none; 
+    }
+
+    .cabeçalho-menu {
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .conteudo-principal {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    ;.conteudo-secundario{
+        margin: 30px;
+    }
+
+}
