@@ -158,7 +158,7 @@ footer{
 }
 
 @media only screen and (max-width: 768px) {
-    .cabeçalho-imagem {
+    .cabeçalho-menu {
         display: none; 
     }
 
