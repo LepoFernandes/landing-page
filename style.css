@@ -179,3 +179,23 @@ footer{
     }
 
 }
+
+@media only screen and (max-width: 1024px) {
+    .cabeçalho-menu {
+        display: none; 
+    }
+
+    .cabeçalho-menu {
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .conteudo-principal {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    
+}
